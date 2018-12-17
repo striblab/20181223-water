@@ -2,6 +2,17 @@
  * Project specific styling.
  */
 
+ #map {
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    width:100%;
+  }
+
+.mapboxgl-ctrl-logo, .mapboxgl-ctrl-attrib {
+    display:none !important;
+}
 
 
  .mapboxgl-map {

@@ -54,3 +54,13 @@ utils.autoEnablePym();
 //     content
 //   }
 // });
+
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhZG93ZmxhcmUiLCJhIjoiS3pwY1JTMCJ9.pTSXx_LFgR3XBpCNNxWPKA';
+var map = new mapboxgl.Map({
+    container: 'map', 
+    style: 'mapbox://styles/shadowflare/cjp2sx7kc2f532sqaxosktgsu',
+    center: [-90.081783, 44.284137],
+    zoom: 7,
+    // maxBounds: [-97.25, 43.4, -89.53, 49.5],
+    scrollZoom: false
+});
