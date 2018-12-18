@@ -14,6 +14,45 @@
     display:none !important;
 }
 
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+    margin-right: 20px;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    border-radius: 3px;
+    overflow:hidden;
+  }
+
+  #legend {
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 18px;
+    height: 50px;
+    margin-bottom: 40px;
+    width: 370px;
+  }
+
+.key_legend {
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom:2px;
+}
+
+#reload {
+    margin:10px;
+    font-weight:900;
+    display:none;
+}
+
+#reload:hover {
+    opacity:0.5;
+    cursor:pointer;
+}
 
  .mapboxgl-map {
     font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
