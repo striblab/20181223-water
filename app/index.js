@@ -134,7 +134,7 @@ $("#reload").on("click", function() {
 $(document).ready(function() {
   if ($("#wrapper").width() < 600) {
       map.flyTo({
-        center: [-89.460554, 44.235760], 
+        center: [-89.444637, 44.366347], 
         zoom: 7.4
       });
   } else {
@@ -146,12 +146,12 @@ $(document).ready(function() {
   $(window).resize(function() {
       if ($("#wrapper").width() < 600) {
           map.flyTo({
-            center: [-89.460554, 44.235760], 
+            center: [-89.002630, 44.513423], 
             zoom: 7.4
           });
       } else {
           map.flyTo({
-            center: [-89.460554, 44.2357609], 
+            center: [-89.444637, 44.366347], 
             zoom: 8
           });
       }

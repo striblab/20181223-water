@@ -10,8 +10,20 @@
     width:100%;
   }
 
+  #year {
+      font-weight:bold;
+  }
+
 .mapboxgl-ctrl-logo, .mapboxgl-ctrl-attrib {
     display:none !important;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow:hidden;
+    font-size:0.5em;
 }
 
 .map-overlay {
@@ -20,7 +32,6 @@
     left: 0;
     background: rgba(255, 255, 255, 0.8);
     margin-right: 0;
-    font-family: Arial, helvetica, sans-serif;
     overflow: auto;
     border-radius: 0;
     overflow:hidden;
